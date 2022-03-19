@@ -28,4 +28,15 @@ public class Car {
     public void setMark(String mark) {
         this.mark = mark;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "model='" + model + '\'' +
+                ", mark='" + mark + '\'' +
+                '}';
+    }
 }
+
+
+
